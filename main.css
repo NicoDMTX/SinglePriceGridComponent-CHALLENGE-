@@ -1,0 +1,13 @@
+* {
+    margin: 0;
+    padding: 0;
+    outline: none;
+}
+
+ :root {
+    /* Setting the principals colours i will use*/
+    --primary: hsl(179, 62%, 43%);
+    --secondary: hsl(71, 73%, 54%);
+    --third: hsl(204, 43%, 93%);
+    --fourth: hsl(218, 22%, 67%);
+}
