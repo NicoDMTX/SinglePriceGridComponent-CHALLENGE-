@@ -10,5 +10,156 @@
     --secondary: hsl(71, 73%, 54%);
     --third: hsl(204, 43%, 93%);
     --fourth: hsl(218, 22%, 67%);
+    --fifth: rgb(74, 190, 189);
 }
 
+.container{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: lightslategrey;
+}
+
+.container__global{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.container__top{
+    border-radius: 5px 5px 0px 0px;
+    background-color: white;
+}
+
+
+.title{
+    color: var(--primary);
+    font-size: 25px;
+    font-family: 'Karla', sans-serif;
+    font-weight: bold;
+    padding-bottom: 15px;
+    padding-top: 35px;
+    padding-left: 15px;
+}
+
+.under__title{
+    color: var(--secondary);
+    font-family: 'Karla', sans-serif;
+    font-weight: bold;
+    padding: 0px 0px 10px;
+    font-size: 18px;
+    padding-left: 15px;
+}
+
+.underTitle__paragraph{
+    color: var(--fourth);
+    font-family: 'Karla', sans-serif;
+    padding-bottom: 35px;
+    font-size: 13px;
+    padding-left: 15px;
+}
+
+.underTitle_paragraphPadding{
+    padding-bottom: 8px;
+    white-space: nowrap;
+    font-size: 15px;
+}
+
+.underTitle_paragraphPadding2{
+    white-space: nowrap;
+    font-size: 15px;
+}
+
+.container__part{ 
+    display: flex;
+    justify-content: center;
+}
+
+.left__part{
+    background-color: var(--primary);
+    border-radius: 0px 0px 0px 10px;
+    width: 50%;
+    padding: 25px;
+    box-sizing: border-box;
+}
+
+.leftBottom__title{
+    color: white;
+    font-family: 'Karla', sans-serif;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    font-weight: bold   ;
+}
+
+.leftBottom__price{
+    color: white;
+    font-size: 28px;
+    font-weight: bold;
+    display: flex;
+    padding-bottom: 5px;
+    font-family: 'Karla', sans-serif;
+}
+
+.leftBottom__price p{
+    color: white;
+    opacity: 0.5;
+    font-family: 'Karla', sans-serif;
+    font-weight: none;
+    font-size: 12px;
+    margin-top: 10px;
+    margin-left: 10px;
+    white-space: nowrap;
+}
+
+.leftBottom__offer{
+    color: white;
+    font-family: 'Karla', sans-serif;
+    padding-bottom: 25px;
+}
+
+.btn_signUp{
+    text-align: center;
+    padding: 0px 0px 20px 0px;
+}
+
+button{
+    border: none;
+    background: var(--secondary);
+    color: white;
+    font-family: 'Karla', sans-serif;
+    border-radius: 5px;
+    font-size: 15px;
+    width: 100%;
+    height: 44px;
+    box-shadow: -1px 10px 20px -17px black;
+}
+
+.rightBottom__title{
+    color: white;
+    font-family: 'Karla', sans-serif;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.rightBottom__list{
+    color: white;
+    opacity: 0.7;
+    font-family: 'Karla', sans-serif;
+    font-size: 15px;
+}
+
+.right__part{
+    background-color: var(--fifth);
+    border-radius: 0px 0px 10px 0px;
+    width:50%;
+    padding: 25px; 
+    box-sizing: border-box;
+}
+
+.container__shadow{
+    box-shadow: 0 0 20px -10px black;
+}
